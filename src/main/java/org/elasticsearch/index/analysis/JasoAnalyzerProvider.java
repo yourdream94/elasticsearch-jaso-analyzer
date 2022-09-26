@@ -15,7 +15,7 @@ public class JasoAnalyzerProvider extends AbstractIndexAnalyzerProvider<JasoAnal
     private final JasoAnalyzer analyzer;
 
     public JasoAnalyzerProvider(IndexSettings indexSettings, Environment environment, String name, Settings settings) {
-        super(name, settings);
+        super(indexSettings, name, settings);
         analyzer = new JasoAnalyzer();
     }
 

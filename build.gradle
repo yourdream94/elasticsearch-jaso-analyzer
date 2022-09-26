@@ -5,7 +5,7 @@ compileJava {
     targetCompatibility = JavaVersion.VERSION_17
 }
 
-version = '8.3.2'
+version = '7.17.4'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Elasticsearch Jaso Analyzer Plugin',
